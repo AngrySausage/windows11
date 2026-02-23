@@ -128,6 +128,7 @@ Manager context menu: <https://nilesoft.org>
 </details>
 
 <details><summary><b><img width=20px src="https://www.xda-developers.com/files/2021/06/Windows-11_Wallpaper_img100-1024x576.jpg"> Disable LockScreen Spotlight</b></summary>
+  
   ```powershell
   reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\CloudContent" /v DisableWindowsSpotlightWindowsWelcomeExperience /t REG_DWORD /d 1 /f
   reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization" /v NoChangingLockScreen /t REG_DWORD /d 0 /f
